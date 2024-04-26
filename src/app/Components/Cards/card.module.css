@@ -1,0 +1,39 @@
+.card {
+  background-color: #090909;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5);
+  padding: 20px;
+  margin: 20px;
+  width: 25%;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px 5px rgba(178, 210, 52, 0.5);
+  transform: translateY(-5px);
+}
+
+.image {
+  display: block;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  border-radius: 5px;
+}
+
+.cardTitle {
+  margin-bottom: 0.75rem;
+}
+
+.cardGeneralInfo {
+  font-size: 12px;
+}
+
+.link {
+  margin-top: 0.2rem;
+  text-decoration: underline;
+  font-size: 10px;
+}
+
+.link:hover {
+  color: #02d234;
+}
