@@ -13,7 +13,7 @@ const ListCards = async () => {
       {characters.results.map((character) => {
         return (
           <Link key={character.id} href={`/character/${character.id}`}>
-            <Card {...character} />;
+            <Card {...character} />
           </Link>
         );
       })}
